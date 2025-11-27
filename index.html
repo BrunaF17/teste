@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio Bootstrap</title>
+
+  <!-- Link para o Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .box {
+      padding: 20px;
+      text-align: center;
+      border-radius: 8px;
+      color: white;
+    }
+
+    .blue { background-color: #2582ad; }
+    .green { background-color: #1ee21e; }
+    .red { 
+      background-color: #f02a2a;
+      }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .box:hover {
+      transform: scale(1.05);
+      transition: 0.3s;
+    }
+  </style>
+</head>
+
+<body class="bg-light">
+
+  <div class="container text-center mt-5">
+    <h1 class="mb-3">Desafio Bootstrap</h1>
+    <h2 class="mb-5">Testando colunas e responsividade</h2>
+
+    <div class="row g-3">
+      <div class="col-md-4">
+        <div class="box blue">coluna 1</div>
+      </div>
+      <div class="col-md-4">
+        <div class="box green">coluna 2</div>
+      </div>
+      <div class="col-md-4">
+        <div class="box red">coluna 3</div>
+        <img src="Image/foto perfil Bruna.PNG" class="img-fluid mt-3" alt="mulher ruiva de óculos de sol">
+      </div>
+    </div>
+
+    <footer class="mt-5">
+      <p>Feito por Bruna 🚀</p>
+      <a href="https://chat.openai.com/" target="_blank">Visite o ChatGPT</a>
+    </footer>
+  </div>
+
+  <!-- Script do Bootstrap (opcional para recursos JS) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
